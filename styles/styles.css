@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+/* Navbar Styles */
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.maincont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    transition: all .5s;
+}
+.logo .surname {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    transition: all .5s;
+}
+.logo .surname:hover {
+    color: cornflowerblue;
+}
+.menu{
+    display: inline-flex;
+    list-style: none;
+}
+.menu li{
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 70px;
+    font-size: 17px;
+}
+
+/* Banner Styles */
+.intro{
+    height: 80vh;
+    padding: 50px;
+    margin-top: 75px;
+    font-family: 'Playfair Display', sans-serif;
+}
+.intro .text2 .firstname {
+    color: rgb(53, 85, 143);
+}
+.intro .text1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.intro .text2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.intro .text3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+/* Skills Styles */
+.skills .heading {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+}
